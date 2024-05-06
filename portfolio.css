@@ -1,0 +1,162 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#profile-photo{
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 130px;
+}
+
+p {
+    font-size: 40px;
+    font-family: 'Comfortaa';
+}
+
+h1 {
+    font-family: 'Archivo Black';
+    font-size: 50px;
+    margin: 50px 0px;
+}
+
+#profile-intro-container, #project-intro-container{
+    background-color: rgb(222, 112, 255);
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#profile-intro-text, #project-text {
+    font-family: 'Comfortaa';
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+#profile-text-container{
+    max-width: 600px;
+    margin-right: 50px;
+}
+
+span{
+    color: white;
+}
+
+#hajimemashite{
+    color: black;
+    font-weight: 100;
+}
+
+#computer-image, #project-image, #skillset-image{
+    height: 300px;
+    width: 300px;
+}
+
+#project-header-text{
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#project-intro-container{
+    background-color: rgb(112, 255, 160);
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#project-text-container{
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+#github-link{
+    color: black;
+    text-decoration: none;
+}
+
+#skill-intro-container-outer{
+    background-color: rgb(112, 188, 255);
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#skill-intro-container-inner{
+    max-width: 600px;
+    margin-right: 50px;
+}
+
+#html-image, #js-image, #c-image, #cpp-image, #python-image, #mysql-image, #firebase-image{
+    height: 150px;
+    width: 150px;
+}
+
+.skill-images-container{
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    /* border: 1px solid white; */
+    display: inline-block;
+}
+
+.skill-text{
+    font-family: 'Comfortaa';
+    color: black;
+    font-size: 30px;
+    margin: 10px 0px;
+    font-weight: 800;
+}
+
+#contact-details-container-outer{
+    margin-top: 100px;
+}
+
+.contact-details-container-inner{
+    display: inline-block;
+    margin: 40px 0px;
+}
+
+.contact-details{
+    font-family: 'Comfortaa';
+    margin: 0px 80px;
+    font-size: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 980px) {
+    #profile-intro-container{
+        width: 87%;
+    }
+    
+    #project-intro-container{
+        width: 87%;
+    }
+
+    #skill-intro-container-outer{
+        width: 87%;
+    }
+}
+
