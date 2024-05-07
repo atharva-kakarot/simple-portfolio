@@ -19,6 +19,7 @@ h1 {
     font-family: 'Archivo Black';
     font-size: 50px;
     margin: 50px 0px;
+    margin-bottom: 0px;
 }
 
 #profile-intro-container, #project-intro-container{
@@ -114,7 +115,6 @@ span{
     height: 150px;
     width: 150px;
     margin: 30px;
-    /* border: 1px solid white; */
     display: inline-block;
 }
 
@@ -126,19 +126,17 @@ span{
     font-weight: 800;
 }
 
-#contact-details-container-outer{
-    margin-top: 100px;
-}
-
 .contact-details-container-inner{
     display: inline-block;
-    margin: 40px 0px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+
 }
 
 .contact-details{
     font-family: 'Comfortaa';
-    margin: 0px 80px;
-    font-size: 25px;
+    margin: 0px 40px;
+    font-size: 40px;
 }
 
 a{
