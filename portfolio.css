@@ -22,7 +22,7 @@ h1 {
     margin-bottom: 0px;
 }
 
-#profile-intro-container, #project-intro-container{
+#profile-intro-container{
     background-color: rgb(222, 112, 255);
     height: fit-content;
     width: fit-content;
@@ -124,6 +124,12 @@ span{
     font-size: 30px;
     margin: 10px 0px;
     font-weight: 800;
+    text-align: center;
+}
+
+#js-text{
+    width: fit-content;
+    margin-left: -10px;
 }
 
 .contact-details-container-inner{
