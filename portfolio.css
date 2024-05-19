@@ -3,7 +3,24 @@ body {
     color: white;
 }
 
-#profile-photo{
+#mode-button {
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon-light-mode{
+    transition: 1s;
+    color: black;
+}
+
+.light-mode {
+    background-color: white;
+    transition: 1s;
+    color: black;
+}
+
+#profile-photo {
     height: 250px;
     width: 250px;
     margin-top: 50px;
@@ -22,7 +39,7 @@ h1 {
     margin-bottom: 0px;
 }
 
-#profile-intro-container{
+#profile-intro-container {
     background-color: rgb(222, 112, 255);
     height: fit-content;
     width: fit-content;
@@ -34,7 +51,8 @@ h1 {
     flex-direction: row;
 }
 
-#profile-intro-text, #project-text {
+#profile-intro-text,
+#project-text {
     font-family: 'Comfortaa';
     color: black;
     font-size: 30px;
@@ -42,32 +60,34 @@ h1 {
     line-height: 40px;
 }
 
-#profile-text-container{
+#profile-text-container {
     max-width: 600px;
     margin-right: 50px;
 }
 
-span{
+span {
     color: white;
 }
 
-#hajimemashite{
+#hajimemashite {
     color: black;
     font-weight: 100;
 }
 
-#computer-image, #project-image, #skillset-image{
+#computer-image,
+#project-image,
+#skillset-image {
     height: 300px;
     width: 300px;
 }
 
-#project-header-text{
+#project-header-text {
     color: black;
     font-size: 30px;
     font-weight: 800;
 }
 
-#project-intro-container{
+#project-intro-container {
     background-color: rgb(112, 255, 160);
     height: fit-content;
     width: fit-content;
@@ -79,17 +99,17 @@ span{
     flex-direction: row;
 }
 
-#project-text-container{
+#project-text-container {
     max-width: 600px;
     margin-left: 50px;
 }
 
-#github-link{
+#github-link {
     color: black;
     text-decoration: none;
 }
 
-#skill-intro-container-outer{
+#skill-intro-container-outer {
     background-color: rgb(112, 188, 255);
     height: fit-content;
     width: fit-content;
@@ -101,24 +121,30 @@ span{
     flex-direction: row;
 }
 
-#skill-intro-container-inner{
+#skill-intro-container-inner {
     max-width: 600px;
     margin-right: 50px;
 }
 
-#html-image, #js-image, #c-image, #cpp-image, #python-image, #mysql-image, #firebase-image{
+#html-image,
+#js-image,
+#c-image,
+#cpp-image,
+#python-image,
+#mysql-image,
+#firebase-image {
     height: 150px;
     width: 150px;
 }
 
-.skill-images-container{
+.skill-images-container {
     height: 150px;
     width: 150px;
     margin: 30px;
     display: inline-block;
 }
 
-.skill-text{
+.skill-text {
     font-family: 'Comfortaa';
     color: black;
     font-size: 30px;
@@ -127,40 +153,39 @@ span{
     text-align: center;
 }
 
-#js-text{
+#js-text {
     width: fit-content;
     margin-left: -10px;
 }
 
-.contact-details-container-inner{
+.contact-details-container-inner {
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 60px;
 
 }
 
-.contact-details{
+.contact-details {
     font-family: 'Comfortaa';
     margin: 0px 40px;
     font-size: 40px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
 @media screen and (max-width: 980px) {
-    #profile-intro-container{
-        width: 87%;
-    }
-    
-    #project-intro-container{
+    #profile-intro-container {
         width: 87%;
     }
 
-    #skill-intro-container-outer{
+    #project-intro-container {
+        width: 87%;
+    }
+
+    #skill-intro-container-outer {
         width: 87%;
     }
 }
-
