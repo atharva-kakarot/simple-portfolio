@@ -4,9 +4,10 @@ Welcome to the repository for my personal portfolio website! This site showcases
 
 ## Overview
 
-The portfolio is built using **HTML** and **CSS**, featuring a responsive layout that adapts to different screen sizes. It highlights my projects and contact information.
+The portfolio is built using **HTML**, **CSS** and **JavaScript**, featuring a responsive layout that adapts to different screen sizes. It highlights my projects and contact information.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
+- JavaScript
